@@ -11,44 +11,71 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="left-nav">
-                <a href="index.html">
-                    <h1>Onla</h1>
-                </a>
-                <a href="#Services">Services</a>
-                <a href="#About">About</a>
+    <header id="main-header">
+        <div class="container">
+            <div class="left-container">
+                <div class="left-container-nav">
+                    <a href="index.html">
+                        <h1>Onla</h1>
+                    </a>
+                    <a href="#Services">Services</a>
+                    <a href="#About">About</a>
+                </div>
+
+                <div class="left-container-content">
+                    <h1>You Call We Answer</h1>
+                    <p>Let us fight for you. We are here to handle your legal needs.</p>
+                    <a href="contact.html" class="btn btn-primary">I Need A Lawyer</a>
+                </div>
             </div>
 
-            <div class="right-nav">
-                <a href="contact.html">Contact Us</a>
-            </div>
-        </nav>
-    </header>
+            <div class="right-container">
+                <div class="right-container-nav">
+                    <a href="contact.html">Contact Us</a>
+                </div>
 
-    <main>
-        <!-- Section A: Hero -->
-        <section>
-            <div class="left-side-hero">
-                <h1>You Call We Answer</h1>
-                <p>Let us fight for you. We are here to handle your legal needs.</p>
-                <a href="contact.html" class="btn btn-primary">I Need A Lawyer</a>
+                <div class="right-container-content"></div>
             </div>
 
-            <div class="right-side-hero"></div>
 
             <div class="floating-hero">
                 <img src="" alt="">
             </div>
-        </section>
+        </div>
+    </header>
 
-        <!-- Section B: Ratings -->
+    <main>
+        <!-- Section A: Ratings -->
         <section class="rating-highlight">
             <div class="container">
                 <p>Most of our customers rate our services <strong>Excellent.</strong> Based on 2500 reviews.</p>
             </div>
         </section>
+
+        <!-- Section B: About -->
+        <section class="About flex-columns">
+            <div class="row">
+
+                <div class="column">
+                    <div class="column-1">
+                        <img src="" alt="Corporate people smiling at the camera">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="column-2 bg-primary">
+                        <h4>Since 1956</h4>
+                        <h2>We represent you like our lives depend on it, because they do.</h2>
+                        <p>We are committed to exceeding our clients' expectations when it comes to defending their
+                            rights, interests, reputation, and financial well-being. We accomplish this by developing
+                            tailored strategies and backing them up with unrivaled legal, medical, scientific, and
+                            technological expertise.</p>
+                        <a href="#" class="btn btn-outline"><i class="fa-solid fa-chevron-right"></i> Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <!-- Section C: Services -->
         <section class="services">
@@ -56,16 +83,98 @@
                 <h2>We specialize in</h2>
                 <p></p>
                 <div class="services-cards">
-                    <div class="service-card"></div>
-                    <div class="service-card"></div>
-                    <div class="service-card"></div>
-                    <div class="service-card"></div>
+                    <div class="service-card">
+                        <h3>Corporate Law</h3>
+                        <p>If you have a business let us make it our business to keep you in business.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Real Estate Litigation</h3>
+                        <p>Based on a thorough understanding of the industry, we offer our clients innovative and
+                            realistic dispute avoidance strategies.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Tax Law</h3>
+                        <p>We will help you hold on to your money, legally of course.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>International Business Law</h3>
+                        <p>we focus on economics and the law, international commercial transactions, licensing, tariffs
+                            and taxes, </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section D: Team -->
+        <section class="team section-padding" id="team">
+            <header class="section-header">
+                <h4>Who we are</h4>
+                <h2>The Team</h2>
+                <p>Let the law work for you.</p>
+            </header>
+
+            <div class="flex-items">
+                <div>
+                    <img src="" alt="">
+                    <h4>Tim Branks</h4>
+                    <p>Managing partner</p>
+                </div>
+
+                <div>
+                    <img src="" alt="">
+                    <h4>Hannah Grenshaw</h4>
+                    <p>Partner</p>
+                </div>
+
+                <div>
+                    <img src="" alt="">
+                    <h4>Mike Brown</h4>
+                    <p>Litigation Attorney</p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer></footer>
+    <footer id="main-footer" class="py-2">
+        <div class="container footer-container">
+
+            <div>
+                <a href="index.html">
+                    <h1>Onla</h1>
+                </a>
+            </div>
+
+            <div>
+                <h3>Email Newsletter</h3>
+                <p>We compile weekly law tips to keep you in the loop on legal matters.</p>
+                <form>
+                    <input type="email" placeholder="Enter Email...">
+                    <input type="submit" value="subscribe" class="btn btn-primary">
+                </form>
+            </div>
+
+            <div class="list">
+                <h3>Site Links</h3>
+                <ul>
+                    <li><a href="">Help & Support</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Mantle Club</h2>
+                <p>By joining you get 24/7 legal aid anywhere in the world.</p>
+                <a href="#" class="btn btn-extra">Join Now</a>
+            </div>
+
+            <div>
+                <p>Copyright &copy 2019 All Rights Reserved.</p>
+            </div>
+
+        </div>
+    </footer>
 </body>
 
 </html>
