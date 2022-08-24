@@ -29,7 +29,14 @@
   opacity: 0.8;
 }
 
-.btn-dark {
+.btn-primary,
+.bg-primary {
+  color: var(--neutral-white);
+  background: var(--primary-color);
+}
+
+.btn-dark,
+.bg-dark {
   background: var(--primary-400);
   color: var(--neutral-white);
 }
@@ -41,4 +48,69 @@
 
 .dark-text {
   color: var(--primary-400);
+}
+
+/* Flex Items */
+.flex-columns .flex-reverse .row {
+  flex-direction: row-reverse;
+}
+
+.flex-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.flex-items > div {
+  padding: 20px;
+}
+
+/* Flex Columns */
+.flex-columns .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+  height: 100%;
+}
+
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-columns .column-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.flex-columns h2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.flex-columns h4 {
+  margin-bottom: 10px;
+}
+
+.flex-columns p {
+  margin: 20px 0;
 }
