@@ -260,3 +260,28 @@ img {
 #main-footer .footer-container input[type="submit"] {
   width: 90%;
 }
+
+/* Contact Page */
+#contact-page {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.header-b {
+  grid-area: header;
+}
+.main-b {
+  grid-area: main;
+}
+
+.footer-b {
+  grid-area: footer;
+}
+
+#contact-page .header-b {
+  height: 12vh;
+  /* padding-bottom: 20px; */
+}
