@@ -64,13 +64,55 @@ img {
 #main-header .container .left-container {
   display: flex;
   flex-direction: column;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+#main-header .container .left-container .left-container-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+#main-header .container .left-container .left-container-nav .logo {
+  margin-right: 100px;
+  color: var(--neutral-white);
+  font-size: 24px;
+}
+
+#main-header .container .left-container .left-container-nav a:not(.logo) {
+  font-size: 18px;
+  margin-right: 40px;
+  color: var(--neutral-white);
+}
+
+#main-header .container .left-container .left-container-content {
+  padding-top: 40px;
+  margin-top: 60px;
+  color: var(--neutral-white);
+}
+
+#main-header .container .left-container .left-container-content h1 {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+
+#main-header .container .left-container .left-container-content p {
+  margin-bottom: 1rem;
+}
+
+#main-header .container .right-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
 }
 
 #main-header .container .floating-hero {
   z-index: 5;
   position: absolute;
   background: url(./images/law-statue.jpg) no-repeat center center/cover;
-  top: 80%;
+  top: 30%;
   left: 50%;
   width: 500px;
   height: 500px;
@@ -95,4 +137,12 @@ img {
 
 #rating-highlight .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+#rating-highlight .container p {
+  padding-top: 15px;
 }

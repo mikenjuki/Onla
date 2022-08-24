@@ -14,3 +14,31 @@
 
   --max-width: 1100px;
 }
+
+/* Buttons & Backgrounds */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: var(--neutral-white);
+  background: var(--primary-color);
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-dark {
+  background: var(--primary-400);
+  color: var(--neutral-white);
+}
+
+/* Text */
+.primary-text {
+  color: var(--primary-color);
+}
+
+.dark-text {
+  color: var(--primary-400);
+}
