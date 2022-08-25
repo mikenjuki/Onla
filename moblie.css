@@ -1,0 +1,40 @@
+#services .services-content .services-cards {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* contact page */
+.section-padding-2 {
+  padding: 20px 0 10px;
+}
+
+#contact .form-container {
+  margin-left: 0;
+  margin-right: 0;
+  height: 150vh;
+  width: 90vw;
+}
+
+#contact .form-container .form-content .contact-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .form-container .form-container-white {
+  margin: 0px;
+  height: 90vh;
+}
+
+#contact .form-container .form-container-white #text-area {
+  height: 100px;
+}
+
+#contactr
+  .form-container
+  .form-container-white
+  .form-inputs
+  .form-input-services {
+  display: flex;
+  flex-direction: column;
+}

@@ -415,25 +415,3 @@ img {
     display: none;
   }
 }
-
-@media (max-width: 640px) {
-  #services .services-content .services-cards {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-
-  /* contact page */
-  .section-padding-2 {
-    padding: 20px 0 10px;
-  }
-
-  #contact .form-container {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  #contact .form-container .form-container-white {
-    margin: 0px;
-  }
-}
