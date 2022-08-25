@@ -63,36 +63,39 @@
 
                 <div class="form-container-white">
                     <div class="form-inputs">
-                        <p>Contact Form</p>
+                        <h3>Contact Form</h3>
 
-                        <div class="bg-light">
+                        <div>
                             <form action="process.php" method="post" class="callback-form">
-                                <div class="form-control">
+                                <div class="grid-form">
+
                                     <label for="name"></label>
                                     <input type="text" name="name" id="name" placeholder="name">
-                                </div>
-                                <div class="form-control">
+
+
                                     <label for="email"></label>
                                     <input type="email" name="email" id="email" placeholder="Enter email">
-                                </div>
-                                <div class="form-control">
+
+
                                     <label for="phone"></label>
                                     <input type="text" phone="phone" id="phone" placeholder="Enter phone number">
-                                </div>
-                                <div class="form-control">
+
+
                                     <label for="text-area"></label>
                                     <textarea type="text" name="textarea" id="text-area"
                                         placeholder="Enter Message"></textarea>
-                                </div>
 
-                                <div class="form-input-services">
-                                    <button type="submit" value="" id="business-law">International Business</button>
-                                    <button type="submit" value="" id="real-estate-law">Real Estate</button>
-                                    <button type="submit" value="" id="tax-Law">Tax</button>
-                                    <button type="submit" value="" id="corporate-aw">Corporate</button>
-                                </div>
 
-                                <input type="submit" value="send" id="submit" class="btn btn-primary">
+                                    <h4 id="button-title">Services</h4>
+                                    <div class="form-input-services">
+                                        <button type="submit" value="" id="business-law">International Business</button>
+                                        <button type="submit" value="" id="real-estate-law">Real Estate</button>
+                                        <button type="submit" value="" id="tax-Law">Tax</button>
+                                        <button type="submit" value="" id="corporate-aw">Corporate</button>
+                                    </div>
+
+                                    <input type="submit" value="send" id="submit" class="btn btn-primary">
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -105,8 +108,8 @@
     <footer id="main-footer" class="py-2 footer-b">
         <div class="container footer-container">
 
-            <div>
-                <a href="index.html">
+            <div class="logo">
+                <a href="index.html" class="logo-link">
                     <h1>Onla</h1>
                 </a>
             </div>
@@ -125,7 +128,7 @@
                 <ul>
                     <li><a href="">Help & Support</a></li>
                     <li><a href="">Privacy Policy</a></li>
-                    <li><a href="#About">About Us</a></li>
+                    <li><a href="">About Us</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -133,10 +136,10 @@
             <div>
                 <h2>Mantle Club</h2>
                 <p>By joining you get 24/7 legal aid anywhere in the world.</p>
-                <a href="#" class="btn btn-extra">Join Now</a>
+                <a href="#" class="btn btn-accent">Join Now</a>
             </div>
 
-            <div>
+            <div class="copyright-info">
                 <p>Copyright &copy 2019 All Rights Reserved.</p>
             </div>
 

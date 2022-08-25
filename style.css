@@ -296,12 +296,15 @@ img {
   background: var(--accent-100);
   margin: 10px 300px 30px;
   border-radius: 8px;
-  padding: 10px 20px 20px;
+  padding: 10px 20px 10px;
+  height: 82vh;
 }
 
 #contact .form-container .form-container-white {
   background: var(--neutral-white);
   border-radius: 10px;
+  height: 48vh;
+  margin: 1px 60px 1px;
 }
 
 #contact .form-container .form-content {
@@ -327,3 +330,65 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+#contact .form-container .form-container-white .form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .form-container .form-container-white .form-inputs h3 {
+  margin: 8px 10px 6px;
+}
+
+#contact .form-container .form-container-white .form-inputs > div .grid-form {
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+  grid-template-rows: repeat(7, auto);
+  gap: 8px;
+}
+
+#contact .form-container .form-container-white #name {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 3;
+}
+#contact .form-container .form-container-white #email {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 3;
+}
+#contact .form-container .form-container-white #phone {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 3;
+}
+#contact .form-container .form-container-white #text-area {
+  grid-row: 1 / span 3;
+  grid-column: 5 / span 5;
+}
+#contact .form-container .form-container-white #button-title {
+  grid-row: 4 / span 1;
+  grid-column: 1 / span 3;
+}
+
+#contact
+  .form-container
+  .form-container-white
+  .form-inputs
+  .form-input-services {
+  grid-row: 5 / span 1;
+  grid-column: 1 / span 9;
+}
+
+#contact .form-container .form-container-white .form-inputs #submit {
+  grid-row: 6 / span 1;
+  grid-column: 4 / span 3;
+}
+
+/* #contact .form-container input {
+  width: 160px;
+  height: 40px;
+  border-radius: 6px;
+  margin: 10px 10px 20px;
+} */
+
+/* #contact .form-container textarea {
+  height: 140px;
+} */
