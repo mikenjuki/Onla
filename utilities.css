@@ -58,6 +58,13 @@
   color: var(--neutral-white);
 }
 
+.btn-light,
+.bg-light {
+  color: var(--neutral-black);
+  background: var(--accent-200);
+  border: 0.5px solid var(--accent-100);
+}
+
 /* Text */
 .primary-text {
   color: var(--primary-color);
