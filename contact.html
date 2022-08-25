@@ -35,13 +35,15 @@
     </header>
 
     <main class="main-b">
-        <section id="contact" class="contact">
+        <section id="contact" class="contact section-padding-2">
 
             <div class="form-container">
 
                 <div class="form-content">
-                    <h2>Get in touch!</h2>
-                    <p>Contact us for a quote or get help joining the Mantle Club.</p>
+                    <div>
+                        <h2>Get in touch!</h2>
+                        <p>Contact us for a quote or get help joining the Mantle Club.</p>
+                    </div>
 
                     <div class="contact-icons">
                         <div class="contact-icon">
@@ -50,7 +52,7 @@
                         </div>
                         <div class="contact-icon">
                             <i class="fa-solid fa-phone fa-2x"></i>
-                            <p>+0 121 4567</p>
+                            <p>+011 121 4567</p>
                         </div>
                         <div class="contact-icon">
                             <i class="fa-solid fa-envelope fa-2x"></i>
@@ -59,42 +61,42 @@
                     </div>
                 </div>
 
+                <div class="form-container-white">
+                    <div class="form-inputs">
+                        <p>Contact Form</p>
 
-                <div class="form-inputs">
-                    <p>Contact Form</p>
+                        <div class="bg-light">
+                            <form action="process.php" method="post" class="callback-form">
+                                <div class="form-control">
+                                    <label for="name"></label>
+                                    <input type="text" name="name" id="name" placeholder="name">
+                                </div>
+                                <div class="form-control">
+                                    <label for="email"></label>
+                                    <input type="email" name="email" id="email" placeholder="Enter email">
+                                </div>
+                                <div class="form-control">
+                                    <label for="phone"></label>
+                                    <input type="text" phone="phone" id="phone" placeholder="Enter phone number">
+                                </div>
+                                <div class="form-control">
+                                    <label for="text-area"></label>
+                                    <textarea type="text" name="textarea" id="text-area"
+                                        placeholder="Enter Message"></textarea>
+                                </div>
 
-                    <div class="bg-light">
-                        <form action="process.php" method="post" class="callback-form">
-                            <div class="form-control">
-                                <label for="name"></label>
-                                <input type="text" name="name" id="name" placeholder="name">
-                            </div>
-                            <div class="form-control">
-                                <label for="email"></label>
-                                <input type="email" name="email" id="email" placeholder="Enter email">
-                            </div>
-                            <div class="form-control">
-                                <label for="phone"></label>
-                                <input type="text" phone="phone" id="phone" placeholder="Enter phone number">
-                            </div>
-                            <div class="form-control">
-                                <label for="text-area"></label>
-                                <textarea type="text" name="textarea" id="text-area"
-                                    placeholder="Enter Message"></textarea>
-                            </div>
+                                <div class="form-input-services">
+                                    <button type="submit" value="" id="business-law">International Business</button>
+                                    <button type="submit" value="" id="real-estate-law">Real Estate</button>
+                                    <button type="submit" value="" id="tax-Law">Tax</button>
+                                    <button type="submit" value="" id="corporate-aw">Corporate</button>
+                                </div>
 
-                            <div class="form-input-services">
-                                <button type="submit" value="" id="business-law">International Business</button>
-                                <button type="submit" value="" id="real-estate-law">Real Estate</button>
-                                <button type="submit" value="" id="tax-Law">Tax</button>
-                                <button type="submit" value="" id="corporate-aw">Corporate</button>
-                            </div>
-
-                            <input type="submit" value="send" id="submit" class="btn btn-primary">
-                        </form>
+                                <input type="submit" value="send" id="submit" class="btn btn-primary">
+                            </form>
+                        </div>
                     </div>
                 </div>
-
             </div>
 
         </section>

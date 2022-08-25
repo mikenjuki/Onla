@@ -290,3 +290,40 @@ img {
   height: 12vh;
   /* padding-bottom: 20px; */
 }
+
+/* Form */
+#contact .form-container {
+  background: var(--accent-100);
+  margin: 10px 300px 30px;
+  border-radius: 8px;
+  padding: 10px 20px 20px;
+}
+
+#contact .form-container .form-container-white {
+  background: var(--neutral-white);
+  border-radius: 10px;
+}
+
+#contact .form-container .form-content {
+  display: flex;
+  flex-direction: column;
+  color: var(--neutral-white);
+}
+
+#contact .form-container .form-content:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#contact .form-container .form-content .contact-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
