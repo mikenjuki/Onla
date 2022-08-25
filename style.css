@@ -280,6 +280,7 @@ img {
 }
 .main-b {
   grid-area: main;
+  /* overflow-x: hidden; */
 }
 
 .footer-b {
@@ -294,10 +295,11 @@ img {
 /* Form */
 #contact .form-container {
   background: var(--accent-100);
-  margin: 10px 300px 30px;
   border-radius: 8px;
   padding: 10px 20px 6px;
   height: 82vh;
+  width: 80vw;
+  margin: 20px auto;
 }
 
 #contact .form-container .form-container-white {
