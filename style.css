@@ -296,7 +296,7 @@ img {
   background: var(--accent-100);
   margin: 10px 300px 30px;
   border-radius: 8px;
-  padding: 10px 20px 10px;
+  padding: 10px 20px 6px;
   height: 82vh;
 }
 
@@ -304,7 +304,7 @@ img {
   background: var(--neutral-white);
   border-radius: 10px;
   height: 48vh;
-  margin: 1px 60px 1px;
+  margin: 1px 60px 0px;
 }
 
 #contact .form-container .form-content {
@@ -385,11 +385,12 @@ img {
   grid-column: 1 / span 9;
   display: flex;
   flex-direction: row;
+  margin-bottom: 2px;
 }
 
 #contact .form-container .form-container-white .form-inputs #submit {
   grid-row: 6 / span 1;
-  grid-column: 4 / span 3;
+  grid-column: 4 / span 2;
 }
 
 /* #contact .form-container input {
@@ -406,5 +407,17 @@ img {
 #contact .form-container .form-container-white .form-input-services > input {
   /* padding: 6px 10px 6px; */
   border-radius: 4px;
+  border-color: transparent;
   margin-right: 80px;
+}
+
+/* #contact .form-container .form-container-white .grid-form textarea {} */
+
+#contact
+  .form-container
+  .form-container-white
+  .form-input-services
+  > input:hover {
+  color: var(--accent-100);
+  border-color: var(--primary-400);
 }

@@ -176,3 +176,15 @@
 .section-padding-2 {
   padding: 20px 10px 10px;
 }
+
+/* Form */
+.form-data {
+  border: 0.5px solid rgb(134, 174, 243);
+}
+
+.form-data:hover,
+.form-data:focus {
+  border: transparent;
+  background-color: var(--accent-200);
+  outline: none;
+}
