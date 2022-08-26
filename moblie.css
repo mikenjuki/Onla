@@ -1,3 +1,55 @@
+/* Header */
+#main-header {
+  background: var(--primary-400);
+  height: 55vh;
+}
+
+#main-header .container {
+  display: flex;
+  flex-direction: row;
+}
+
+#main-header .container .left-container {
+  padding-left: 30px;
+  margin-right: 10px;
+  width: 330px;
+}
+
+#main-header .container .left-container .left-container-nav .logo {
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+#main-header .container .left-container .left-container-nav a:not(.logo) {
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+#main-header .container .right-container .right-container-nav {
+  align-items: baseline;
+}
+
+#main-header .container .right-container .right-container-nav a {
+  padding: 5px 10px !important;
+  background: var(--primary-color);
+}
+
+#main-header .container .left-container .left-container-content {
+  padding-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#main-header .container .left-container .left-container-content h1 {
+  margin-bottom: 2rem;
+}
+
+#main-header .container .left-container .left-container-content p {
+  margin-bottom: 1rem;
+  padding-right: 0;
+}
+
+/* Services */
 #services .services-content .services-cards {
   display: flex;
   flex-direction: column;

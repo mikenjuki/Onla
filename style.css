@@ -52,13 +52,13 @@ img {
 #main-header {
   height: 100vh;
   background: linear-gradient(90deg, #0b4b40 70%, #1fc567 30%);
-  /* overflow: hidden; */
 }
 
 #main-header .container {
   display: grid;
   position: relative;
   grid-template-columns: 7fr 3fr;
+  align-items: baseline;
 }
 
 #main-header .container .left-container {
